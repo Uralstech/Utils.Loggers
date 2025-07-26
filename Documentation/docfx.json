@@ -3,12 +3,15 @@
     {
       "src": [
         {
-          "src": "../PackageName",
+          "src": "../Utils.Loggers",
           "files": [
-            "Packages/com.uralstech.package-name/Runtime/**/*.cs"
+            "Packages/com.uralstech.utils.loggers/Runtime/**/*.cs"
           ]
         }
       ],
+      "properties": {
+        "DefineConstants": "ULOGGERS_ALWAYS_LOG"
+      },
       "dest": "api",
       "filter": "filterConfig.yml",
       "includePrivateMembers": false,
@@ -39,9 +42,9 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "PackageName",
-      "_appTitle": "PackageName",
-      "_appFooter": "(C) 2024 URAV ADVANCED LEARNING SYSTEMS PRIVATE LIMITED, licensed under the <a href=\"https://github.com/Uralstech/PackageName/blob/master/LICENSE\">Apache License, Version 2.0</a>.",
+      "_appName": "Utils.Loggers",
+      "_appTitle": "Utils.Loggers",
+      "_appFooter": "(C) 2024 URAV ADVANCED LEARNING SYSTEMS PRIVATE LIMITED, licensed under the <a href=\"https://github.com/Uralstech/Utils.Loggers/blob/master/LICENSE\">Apache License, Version 2.0</a>.",
       "_enableSearch": true
     },
     "fileMetadata": {
@@ -59,7 +62,7 @@
       }
     },
     "sitemap": {
-      "baseUrl": "https://uralstech.github.io/PackageName",
+      "baseUrl": "https://uralstech.github.io/Utils.Loggers",
       "priority": 1.0,
       "changefreq": "monthly"
     }
