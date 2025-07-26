@@ -1,0 +1,12 @@
+{
+  "name": "com.uralstech.utils.loggers",
+  "displayName": "Utils.Loggers",
+  "description": "Custom loggers for Unity.",
+  "keywords": [],
+  "version": "1.0.0",
+  "hideInEditor": false,
+  "author": {
+    "name": "Udayshankar Ravikumar",
+    "url": "https://github.com/Uralstech"
+  }
+}
