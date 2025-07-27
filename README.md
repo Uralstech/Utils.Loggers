@@ -7,7 +7,7 @@ Custom loggers for Unity.
 
 ## Installation
 
-This *should* work on any reasonably modern Unity version. Built and tested in Unity 6.0.
+This *should* work on any reasonably modern Unity version. Built and tested in Unity 6.1.
 
 ### OpenUPM
 
