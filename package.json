@@ -5,6 +5,14 @@
   "keywords": [],
   "version": "1.0.0",
   "hideInEditor": false,
+  "documentationUrl": "https://uralstech.github.io/Utils.Loggers/",
+  "changelogUrl": "https://github.com/Uralstech/Utils.Loggers/releases",
+  "licensesUrl": "https://github.com/Uralstech/Utils.Loggers/blob/master/LICENSE",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/Uralstech/Utils.Loggers.git"
+  },
   "author": {
     "name": "Udayshankar Ravikumar",
     "url": "https://github.com/Uralstech"
