@@ -51,6 +51,36 @@ namespace Uralstech.Utils.Loggers
         /// <summary>
         /// Logs a message in development builds.
         /// </summary>
+        /// <param name="message">The message.</param>
+        [Conditional("DEBUG"), Conditional("ULOGGERS_ALWAYS_LOG")]
+        public void Log(string message)
+        {
+            _logger!.Log(LogType.Log, _tag, message);
+        }
+
+        /// <summary>
+        /// Logs an error message in development builds.
+        /// </summary>
+        /// <param name="message">The message.</param>
+        [Conditional("DEBUG"), Conditional("ULOGGERS_ALWAYS_LOG")]
+        public void LogError(string message)
+        {
+            _logger!.Log(LogType.Error, _tag, message);
+        }
+
+        /// <summary>
+        /// Logs a warning message in development builds.
+        /// </summary>
+        /// <param name="message">The message.</param>
+        [Conditional("DEBUG"), Conditional("ULOGGERS_ALWAYS_LOG")]
+        public void LogWarning(string message)
+        {
+            _logger!.Log(LogType.Warning, _tag, message);
+        }
+
+        /// <summary>
+        /// Logs a message in development builds.
+        /// </summary>
         /// <param name="message">The message object.</param>
         [Conditional("DEBUG"), Conditional("ULOGGERS_ALWAYS_LOG")]
         public void Log(object message)
